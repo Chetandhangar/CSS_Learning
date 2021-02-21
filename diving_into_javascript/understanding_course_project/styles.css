@@ -1,0 +1,26 @@
+/* work as parent ele where others will inherit the style*/
+body{
+    font-family: 'Montserrat',sans-serif ;
+}
+/* id selector higher-precidions*/
+#product-overview{
+    background-color: red;
+}
+/* combinators giving-more-info higher precidions*/
+/* 4 types :- a) Adjacent Sibling:- div +p
+b) General Sibling:- div ~ p 
+c) Child :- div > p
+d) Descendent :- div p
+*/
+#product-overview h1{ 
+    font-family: 'Anton' , sans-serif;
+}
+/* element*/
+h1{
+    font-family: sans-serif;
+}
+
+/* class*/
+.section-title{
+    color: green;
+}
